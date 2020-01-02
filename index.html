@@ -234,7 +234,7 @@
         <div>
           <form onsubmit="handleSubmit(event, 1)">
             <input id="email-1" type="email" placeholder="Email"/>
-            <button type="submit">Submit</button>
+            <button id="submit-1" type="submit">Submit</button>
           </form>
           <div id="disclaimer-1">I will <u>only</u> email regarding the status of this course; no spam or mail-outs.</div>
         </div>
@@ -450,7 +450,7 @@
         <div>
           <form onsubmit="handleSubmit(event, 2)">
             <input id="email-2"  type="email" placeholder="Email"/>
-            <button type="submit">Submit</button>
+            <button id="submit-2" type="submit">Submit</button>
           </form>
           <div id="disclaimer-2">I will <u>only</u> email regarding the status of this course; no spam or mail-outs.</div>
         </div>
@@ -478,13 +478,11 @@
 
       function handleSubmit(e, el) {
         e.preventDefault()
-        console.log(el)
         const email = document.getElementById('email-' + el).value
         const msg = document.getElementById('alert-' + el)
+        const btn = document.getElementById('submit-' + el)
         const disclaimer = document.getElementById('disclaimer-' + el)
-        msg.classList.remove('alert-hide')
-        msg.classList.add('alert-show')
-        disclaimer.classList.add('alert-hide')
+        btn.innerText = 'Submitting...'
 
         postData('https://email-gather.herokuapp.com/emails', {
           email: {
@@ -493,7 +491,10 @@
           }
         })
           .then((data) => {
-            console.log('Ok!')
+            btn.innerText = 'Submit'
+            msg.classList.remove('alert-hide')
+            msg.classList.add('alert-show')
+            disclaimer.classList.add('alert-hide')
           });
       }
     </script>
