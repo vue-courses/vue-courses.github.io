@@ -11,6 +11,16 @@ small {
   max-width: 800px;
 }
 
+@media (max-width: 767px) {
+  .row {
+    display: flex;
+  }
+
+  .col-1 {
+    width: auto;
+  }
+}
+
 /* screencasts/<NAME>.html */
 
 h1, h2 {
@@ -24,3 +34,4 @@ p {
 iframe {
   width: 100%;
 }
+
