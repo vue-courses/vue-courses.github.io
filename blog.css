@@ -1,0 +1,38 @@
+/* /screencasts.html */
+small {
+  font-weight: lighter;
+}
+
+.align-right {
+  text-align: right;
+}
+
+#main {
+  max-width: 800px;
+}
+
+@media (max-width: 767px) {
+  .row {
+    display: flex;
+  }
+
+  .col-1 {
+    width: auto;
+  }
+}
+
+/* screencasts/<NAME>.html */
+
+h1, h2 {
+  text-align: center
+}
+
+p {
+  font-weight: normal;
+  line-height: 1.5 !important;
+}
+
+iframe {
+  width: 100%;
+}
+

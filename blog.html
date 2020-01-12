@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vue.js 3 Course - Blog</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155194950-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-155194950-1');
+    </script>
+
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/simple-grid.css">
+    <link rel="stylesheet" href="/nav.css">
+    <link rel="stylesheet" href="/colors.css">
+    <link rel="stylesheet" href="/shared.css">
+    <link rel="stylesheet" href="/blog.css">
+  </head>
+
+  <body>
+    <nav id="nav-header">
+      <div class="container" id="menu-container">
+        <div id="menu-row" class="row">
+          <div class="col-12" id="menu-column">
+            <div class="menu">
+              <a class="white logo home-desktop" href="/">
+                Vue.js Courses
+              </a>
+              <a class="white logo home-mobile" href="/">
+                Home
+              </a>
+              <a class="white pl" href="/screencasts.html">Screencasts</a>
+              <a class="white pl" href="/blog.html">Blog</a>
+              <a class="white pl" href="/courses.html">Courses</a>
+              <a class="white pl" href="/about.html">About</a>
+              <!--
+                <a class="white pl" href="/privacy-policy.html">Privacy Policy</a>
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="main" class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="row">
+            <div class="col-2">Jan 2019</div>
+            <div class="col-10">
+              <a href="/blog/reducing-duplication-in-vue-unit-tests.html">
+                Reducing Duplication in Vue Unit Tests
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+          <p>Reducing boilerplate in your unit tests can improve readability. In this article, we refactor the unit tests for a component using Vuex and VueRouter, and extract a useful utility function that can be used throughout the entire codebase.</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
