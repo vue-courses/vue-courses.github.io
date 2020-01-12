@@ -4,6 +4,15 @@
   font-weight: lighter;
 }
 
+  
+.home-desktop {
+  display: block;
+}
+
+.home-mobile {
+  display: none;
+}
+
 .menu {
   display: flex;
 }
@@ -24,4 +33,26 @@
 
 .menu > .logo {
   flex-grow: 1;
+}
+
+@media (max-width: 767px) {
+  #nav-header {
+    height: auto;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .pl {
+    padding: 0;
+  }
+  
+  .home-desktop {
+    display: none;
+  }
+
+  .home-mobile {
+    display: block;
+  }
 }
