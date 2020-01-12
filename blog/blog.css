@@ -1,0 +1,30 @@
+pre {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+  font-size: 10pt;
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+div, p {
+  font-weight: normal;
+}
+
+.inline {
+  background: transparent !important;
+  color: red !important;
+}
+
+p > .inline {
+  background: transparent !important;
+  color: red !important;
+  font-size: 0.95rem;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 0 0 5px;
+  border-left: 5px solid #35495e;
+}
