@@ -12,6 +12,10 @@ div, p {
   font-weight: normal;
 }
 
+a {
+  font-weight: lighter;
+}
+
 .inline {
   background: transparent !important;
   color: red !important;
