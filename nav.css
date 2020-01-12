@@ -1,0 +1,27 @@
+#nav-header {
+  height: 50px;
+  background: #35495e;
+  font-weight: lighter;
+}
+
+.menu {
+  display: flex;
+}
+
+#menu-row {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.pl {
+  padding: 0 0 0 15px;
+}
+
+#menu-container {
+  height: 100%;
+}
+
+.menu > .logo {
+  flex-grow: 1;
+}

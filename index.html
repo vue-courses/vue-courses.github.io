@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vue.js 3 Course - Composition API, TypeScript, Testing | Vue Courses</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155194950-1"></script>
+    <!--
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155194950-1"></script>
+    -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -16,183 +18,28 @@
 
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./simple-grid.css">
-
-    <style>
-    h4 {
-      padding: 0;
-      margin: 0;
-    }
-
-    #disclaimer-1, #disclaimer-2 {
-      font-size: 0.7rem;
-      text-align: center;
-    }
-
-    .alert-hide {
-      display: none;
-    }
-
-    .alert-show {
-      display: inherit;
-    }
-
-    #form {
-      display: flex;
-      justify-content: center;
-    }
-
-    form {
-      display: flex;
-      justify-content: center;
-    }
-
-    input[type="text"], input[type="email"] {
-      font-size: 16px;
-      padding: 4px 4px 8px 4px;
-      background: transparent;
-      border: none;
-      border-bottom: 1px solid silver;
-      width: 100%;
-      font: 1rem trebuchet ms;
-      margin: 8px 10px;
-    }
-
-    input, button[type="submit"] {
-      margin: 8px 0px;
-    }
-
-    input:focus {
-      outline: none;
-      border-bottom: 1px solid grey !important;
-      transition: 0.5s !important;
-    }
-
-    button {
-      padding: 0;
-      border: none;
-      margin: 0;
-      font: inherit;
-      color: inherit;
-      background-color: transparent;
-      cursor: pointer;
-    }
-
-    button[type="submit"] {
-      border: 2px solid rgba(0, 100, 0, 1);
-      padding: 2px 8px;
-    }
-
-    button[type="submit"]:hover {
-      background: rgba(0, 100, 0, 0.5);
-    }
-
-    iframe {
-      width: 100%;
-    }
-
-    #banner {
-      background: rgba(35, 174, 57, 0.69);
-      box-sizing: border-box;
-      border: 10px solid #35495e;
-      font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-      font-weight: 300;
-      color: white;
-    }
-
-    .subtitle {
-      font-size: 0.9rem;
-    }
-
-    .sub {
-      text-align: center;
-    }
-
-    #title {
-      font-size: 2rem;
-      font-weight: 400;
-    }
-
-    #title, #vue {
-      padding: 0 5px;
-      z-index: 10;
-    }
-
-    #vue {
-      height: 100%;
-    }
-
-    #banner {
-      /* width: 552px; */
-      margin: 10px 0;
-      width: 100%;
-      height: 150px;
-    }
-
-    #top, #bot {
-      height: 15%;
-    }
-
-    #hero {
-       height: 70%;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-    }
-
-    #mid {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 70%;
-    }
-    </style>
-
-    <!-- End Banner -->
-
-
-    <style>
-      li {
-        padding: 2px 0;
-      }
-      section > div {
-        text-decoration: underline;
-      }
-
-      section > ol > li {
-        list-style: circle;
-      }
-
-      body {
-        background: #4ddd63a6; <!-- lightgreen -->
-      }
-
-      h1 {
-        margin: 0;
-      }
-
-      #main {
-        padding: 25px 0 0 0;
-      }
-
-      .yt-container {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
-      }
-
-      .video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-    </style>
-
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./colors.css">
+    <link rel="stylesheet" href="./shared.css">
   </head>
+
   <body>
+    <nav id="nav-header">
+      <div class="container" id="menu-container">
+        <div id="menu-row" class="row">
+          <div class="col-12" id="menu-column">
+            <div class="menu">
+              <a class="white logo" href="/">Vue.js Courses</a>
+              <a class="white pl" href="/screencasts.html">Screencasts (free)</a>
+              <a class="white pl" href="/courses.html">Courses</a>
+              <a class="white pl" href="/about.html">About</a>
+              <a class="white pl" href="/privacy-policy.html">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <div id="main" class="container">
       <div class="row">
 
@@ -203,7 +50,7 @@
         </div>
 
         <div class="col-7">
-          <img style="width: 100%;" src="./banner.png" />
+          <img alt="vuejs-3-course-banner" style="width: 100%;" src="./banner.png" />
         </div>
       </div>
 
@@ -279,7 +126,7 @@
         <div class="col-1"> </div>
 
         <div class="col-3">
-          <img style="width: 100%;"  src="https://avatars3.githubusercontent.com/u/19196536?s=460&v=4">
+          <img alt="lachlan-miller" style="width: 100%;"  src="https://avatars3.githubusercontent.com/u/19196536?s=460&v=4">
         </div>
         <div class="col-7">
           <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">

@@ -1,0 +1,93 @@
+#disclaimer-1, #disclaimer-2 {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.alert-hide {
+  display: none;
+}
+
+.alert-show {
+  display: inherit;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"], input[type="email"] {
+  font-size: 16px;
+  padding: 4px 4px 8px 4px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid silver;
+  width: 100%;
+  font: 1rem trebuchet ms;
+  margin: 8px 10px;
+}
+
+input, button[type="submit"] {
+  margin: 8px 0px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid grey !important;
+  transition: 0.5s !important;
+}
+
+button {
+  padding: 0;
+  border: none;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  border: 2px solid rgba(0, 100, 0, 1);
+  padding: 2px 8px;
+}
+
+button[type="submit"]:hover {
+  background: rgba(0, 100, 0, 0.5);
+}
+
+iframe {
+  width: 100%;
+}
+
+
+li {
+  padding: 2px 0;
+}
+section > div {
+  text-decoration: underline;
+}
+
+section > ol > li {
+  list-style: circle;
+}
+
+.yt-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

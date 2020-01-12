@@ -1,0 +1,26 @@
+/* /screencasts.html */
+small {
+  font-weight: lighter;
+}
+
+.align-right {
+  text-align: right;
+}
+
+#main {
+  max-width: 800px;
+}
+
+/* screencasts/<NAME>.html */
+
+h1, h2 {
+  text-align: center
+}
+
+p {
+  font-weight: normal;
+}
+
+iframe {
+  width: 100%;
+}
