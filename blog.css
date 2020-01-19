@@ -7,10 +7,6 @@ small {
   text-align: right;
 }
 
-#main {
-  max-width: 800px;
-}
-
 @media (max-width: 767px) {
   .row {
     display: flex;

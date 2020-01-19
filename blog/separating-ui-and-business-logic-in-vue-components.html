@@ -84,7 +84,7 @@
     <blockquote><p>This article is available <a href="/screencasts/separating-ui-and-business-logic-in-vue-components.html">as a screencast</a>!</p></blockquote>
 
 <p>Mixed concerns also means the application has poor test coverage - unit tests often force you to keep your business logic and UI logic separate, and not doing so makes testing difficult. Tests aside, Vue and React are for building user interfaces, not encapsulating application logic, so there is a lot of value in keeping the two separate.</p>
-<p>In this article, I will discuss separating business logic and UI logic by refactoring a password strength component posted by Milad Dehghan. You can see the original source code on his GitHub <a href="https://github.com/miladd3/vue-simple-password-meter">here</a>. You can try it out <a href="https://miladd3.github.io/vue-simple-password-meter/">here</a>.</p>
+<p>In this article, I will discuss separating business logic and UI logic by refactoring a password strength component posted by Milad Dehghan. You can see the original source code on his GitHub <a href="https://github.com/miladd3/vue-simple-password-meter.git">here</a>. You can try it out <a href="https://miladd3.github.io/vue-simple-password-meter/">here</a>. The final source code for this article is <a href="https://github.com/lmiller1990/vuejs-course-2-separating-business-ui-logic">here</a>.</p>
 <p>A basic summary of how the component works is like this:</p>
 <pre><code class="html lang-html language-html">&lt;template&gt;
   &lt;div class=&quot;po-password-strength-bar&quot; :class=&quot;passwordClass&quot;&gt;&lt;/div&gt;
@@ -310,7 +310,7 @@ export default {
 <p>There is a lot of value in separating UI and application logic; testability and readabilty for starters, and very little downside. Although it requires more thought up front, you end up with a better design and more maintainable codebase.</p>
 
   </div>
-          <p>The source code for the test described on this page can be found <a href="https://github.com/lmiller1990/vue-testing-handbook/tree/master/demo-app/tests/unit/Posts.spec.js">here</a>. This article is also available <a href="/screencasts/reducing-duplication-in-tests.html">as a screencast here</a>!
+          <p>The source code for the test described on this page can be found <a href="https://github.com/lmiller1990/vuejs-course-2-separating-business-ui-logic.git">here</a>. This article is also available <a href="/screencasts/separating-ui-and-business-logic-in-vue-components.html">as a screencast here</a>!
           </p>
 
         </div>
