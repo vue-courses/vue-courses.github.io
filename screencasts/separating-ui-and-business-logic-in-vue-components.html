@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -14,11 +13,11 @@
       gtag('config', 'UA-155194950-1');
     </script>
     <title>Screencasts | Vue Courses</title>
-    <link rel="stylesheet" href="./simple-grid.css">
-    <link rel="stylesheet" href="./nav.css">
-    <link rel="stylesheet" href="./colors.css">
-    <link rel="stylesheet" href="./shared.css">
-    <link rel="stylesheet" href="./screencasts.css">
+    <link rel="stylesheet" href="/simple-grid.css">
+    <link rel="stylesheet" href="/nav.css">
+    <link rel="stylesheet" href="/colors.css">
+    <link rel="stylesheet" href="/shared.css">
+    <link rel="stylesheet" href="/screencasts.css">
   </head>
   <body>
     <nav id="nav-header">
@@ -47,36 +46,23 @@
 
     <div id="main" class="container">
       <div class="row">
-
         <div class="col-12">
-          <!-- START POST -->
+
           <div class="row">
-            <div class="col-1">2.</div>
-            <div class="col-5">
-              <a href="/screencasts/separating-ui-and-business-logic-in-vue-components.html">
+            <div class="col-12">
+              <h1 id="video-title">
                 Separating UI and Business Logic in Vue Components
-              </a>
-            </div>
-            <div class="col-6">
-              <small>Refactor the SimplePassword component, separating the business and UI logic (10min)</small>
+              </h1>
+
+              <iframe src="https://player.vimeo.com/video/385770021" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+              <p>One common occurrence I’ve observed across large Vue and React apps is that, over time, the UI logic and business logic becomes so entangled that UI changes break the business logic and vice versa. Let’s look at an example of this, and how we can separate the concerns.</p>
+              <p>In this screencast, we separate the UI and business logic in the `SimplePassword` component, and adding a test suite in the process.</p>
+              <p>A text version of this screencast is available 
+              <a href="/blog/separating-ui-and-business-logic-in-vue-components.html">here</a>.
+              </p>
             </div>
           </div>
-          <!-- END POST -->
-
-
-          <!-- START POST -->
-          <div class="row">
-            <div class="col-1">1.</div>
-            <div class="col-5">
-              <a href="/screencasts/reducing-duplication-in-tests.html">
-                Reducing Duplication in Unit Tests
-              </a>
-            </div>
-            <div class="col-6">
-              <small>Build a reusable function for testing components (9min)</small>
-            </div>
-          </div>
-          <!-- END POST -->
 
         </div>
       </div>
