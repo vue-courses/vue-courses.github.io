@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vue.js 3 Course - Blog</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155194950-1"></script>
     <script>
@@ -14,15 +12,13 @@
 
       gtag('config', 'UA-155194950-1');
     </script>
-
-    <link rel="stylesheet" href="/index.css">
+    <title>Screencasts | Vue Courses</title>
     <link rel="stylesheet" href="/simple-grid.css">
     <link rel="stylesheet" href="/nav.css">
     <link rel="stylesheet" href="/colors.css">
     <link rel="stylesheet" href="/shared.css">
-    <link rel="stylesheet" href="/blog.css">
+    <link rel="stylesheet" href="/screencasts.css">
   </head>
-
   <body>
     <nav id="nav-header">
       <div class="container" id="menu-container">
@@ -50,70 +46,21 @@
 
     <div id="main" class="container">
       <div class="row">
-
-        <!-- POST -->
         <div class="col-12">
-          <div class="row">
-            <div class="col-2">Jan 2019</div>
-            <div class="col-10">
-              <a href="#">
-                Implementing Vuex for Vue 3 From Scratch
-              </a>
-            </div>
-          </div>
 
           <div class="row">
             <div class="col-12">
+              <h1 id="video-title">Implementing Vuex for Vue 3 From Scratch</h1>
+              <iframe src="https://player.vimeo.com/video/384291041" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
               <p>
               Vue 3's alpha has been out for a while now, however most of the core libraries have not caught up yet - namely Vuex and Vue Router. Let's reimplement Vuex, this time using Vue 3's newly exposed reactivity APIs.
               </p>
-              </a>
+              <p>A text version of this screencast is available <a href="/blog/implementing-vuex-for-vue-3-from-scratch.html">here</a>.</p>
             </div>
           </div>
+
         </div>
-        <!-- POST END -->
-
-
-        <!-- POST -->
-        <div class="col-12">
-          <div class="row">
-            <div class="col-2">Jan 2019</div>
-            <div class="col-10">
-              <a href="/blog/separating-ui-and-business-logic-in-vue-components.html">
-                Separating UI and Business Logic in Vue Components
-              </a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-12">
-              <p>One common occurrence I’ve observed across large Vue and React apps is that, over time, the UI logic and business logic becomes so entangled that UI changes break the business logic and vice versa. Let’s look at an example of this, and how we can separate the concerns.</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- POST END -->
-
-        <!-- POST -->
-        <div class="col-12">
-          <div class="row">
-            <div class="col-2">Jan 2019</div>
-            <div class="col-10">
-              <a href="/blog/reducing-duplication-in-vue-unit-tests.html">
-                Reducing Duplication in Vue Unit Tests
-              </a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-12">
-          <p>Reducing boilerplate in your unit tests can improve readability. In this article, we refactor the unit tests for a component using Vuex and VueRouter, and extract a useful utility function that can be used throughout the entire codebase.</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- POST END -->
-
       </div>
     </div>
   </body>
