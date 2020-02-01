@@ -18,13 +18,26 @@ a.white {
 
 .inline {
   background: transparent !important;
-  color: red !important;
+  /*
+  color: blue !important;
+  */
+}
+
+.post_body {
+  padding: 0px 10px 10px 10px;
+  margin: 0 0 15px 0;
+  background: white;
 }
 
 p > .inline {
-  background: transparent !important;
   color: red !important;
-  font-size: 0.95rem;
+  background: white !important;
+  border-radius: 0px;
+  font-size: inherit;
+  /*
+  background: transparent !important;
+  color: darkblue !important;
+  */
 }
 
 blockquote {
